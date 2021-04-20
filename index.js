@@ -16,7 +16,7 @@ let client=0;
  let rooms=[]
  let index=0;
  let room
- app.use(express.static(path.join(__dirname, '/public')));
+ app.use(express.static(path.join(__dirname, '/')));
  
 //  app.get("/",(req,res)=>{
 //    res.sendFile(__dirname + '/player.html');
